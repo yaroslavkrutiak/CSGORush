@@ -26,6 +26,15 @@ input[type=submit] {
     cursor: pointer;
 }
 
+button{
+    background-color: #BEBEBE;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 label{
     color: #BEBEBE;
 }
