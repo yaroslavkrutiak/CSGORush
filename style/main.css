@@ -445,10 +445,9 @@ h4 {
     display: none;
 }
 
-/* стилизуем кнопку */
 .menu__btn {
-    display: flex; /* используем flex для центрирования содержимого */
-    align-items: center; /* центрируем содержимое кнопки */
+    display: flex;
+    align-items: center;
     width: 30px;
     height: 30px;
     cursor: pointer;
@@ -456,7 +455,6 @@ h4 {
     margin-block-start: 2%;
 }
 
-/* добавляем "гамбургер" */
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
@@ -494,7 +492,6 @@ h4 {
     border: 1px solid #bebebe;
 }
 
-/* элементы меню */
 .menu__item {
     display: block;
     padding: 12px 24px;
